@@ -1,0 +1,2 @@
+interface set phy if eth0 active off admin off 
+ifconfig eth0 hw ether ADDRESS 
