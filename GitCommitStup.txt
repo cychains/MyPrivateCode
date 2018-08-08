@@ -1,3 +1,12 @@
+#git 使用ssh方式，需要配置ssh秘钥，并且把公钥导入到git
+#参考链接如下
+https://www.cnblogs.com/hafiz/p/8146324.html
+
+#git checkout操作
+#说明：linux环境使用git clone要用ssh方式，使用https方式会报协议错误
+git clone git@github.com:cychains/My_C_room.git
+
+#git 提交
 git add readme
 git status
 git commit readme -m "add by chenying"
