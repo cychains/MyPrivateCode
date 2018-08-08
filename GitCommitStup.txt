@@ -1,0 +1,5 @@
+git add readme
+git status
+git commit readme -m "add by chenying"
+git diff
+git push origin master
